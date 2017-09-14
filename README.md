@@ -1,4 +1,5 @@
 # Sailing
+![Alt text](screenshot.png?raw=true "Screenshot")
 
 Compile & Run:
     cs-488 framework is modified, so
