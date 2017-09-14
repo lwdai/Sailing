@@ -1,0 +1,63 @@
+cs488 f16 project
+Liwen Dai
+20552153
+
+Compile & Run:
+    cs-488 framework is modified, so
+    
+    $ cd cs488
+    $ premake4 gmake
+    $ make
+    
+    $ cd SAILING
+    $ premake4 gmake
+    $ make
+    
+    $ ./SAILING Assets/scene.lua
+    
+    
+Test:
+    Worked fine on my laptop.
+    
+    When testing on gl34, make in cs488/ failed with "Clock skew detected".
+    
+    And when running, the water surface cannot be rendered at all.
+    
+    Shall bring my own laptop to the demo, if I couldn't make it in time.
+  
+Objectives:
+
+    1: There is an interactive scene where a ship can be sailed on the sea. 
+    There should be islands or rocks in the scene.
+    
+    2: Some texture is mapped onto the ship.
+    
+    3: Objects can cast shadow.
+    
+    4: Water has some degree of transparency. 
+       Objects under the water are visible with color blended.
+       
+    5: There’s a mirror reflection effect on the water surface.
+    
+    6: Objects under the water have refraction effect.
+    
+    7: Water does not look still: some dynamic wave effect is simulated.
+    
+    8: The ship has a chimney that generates smoke by some particle system.
+    
+    9: Blur effect is applied to background beyond depth of field (DOF).
+    
+    10: A 2D collision detection system prevents the ship from moving ”into” islands or rocks.
+    
+        
+        
+     
+      
+    
+    
+    
+    
+        
+        
+        
+
