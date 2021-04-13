@@ -15,7 +15,7 @@ Compile & Run:
     $ ./SAILING Assets/scene.lua
     
 Note:  
-    Requries cs488 framework to compile (not provided). This repo is for reference only.  
+    Requries cs488 framework to compile (provided).  
     
 Objectives:
     
